@@ -1,0 +1,14 @@
+{
+  "name": "SHADOW BOT",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp automatisé pour le clan NDA x SONA basé sur Baileys.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "NIGHT SHADOW",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0"
+  }
+}
