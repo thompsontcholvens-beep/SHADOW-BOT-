@@ -12,6 +12,7 @@ Liste des commandes:
 - .menu : Affiche ce menu
 - .goodbye: Activé/Désactivé le message d'au revoir 
 - .tagall : mentionné tout les membres du groupe
+- .owners: afficher les owners du bot
     await message.reply(menuText);
   }
 };
