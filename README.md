@@ -1,9 +1,6 @@
 # 🤖SHADOW-BOT-
 ![SHADOW BOT](https://i.postimg.cc/65k0KqY5/IMG-20250829-WA0136.jpg)
 
-SHADOW BOT // Operative AI | Surveillance Node | NDA x SONA Protocol v1.0
-
-
 Un bot WhatsApp avancé basé sur [Baileys](https://github.com/WhiskeySockets/Baileys) — pas besoin de scanner un QR code !  
 Déploiement simple avec *code d'association (8 chiffres)*.
 
@@ -72,4 +69,6 @@ _"On ne plaisante pas avec l'autorité."_
 
 📲 Rejoignez-nous
 
-[![WhatsApp](https://img.shields.io/badge/Join-WhatsApp-green)](https://chat.whatsapp.com/TON-LIEN)
+[![WhatsApp](https://img.shields.io/badge/Join-WhatsApp-green)](https://chat.whatsapp.com/https://whatsapp.com/channel/0029VbBdHP4KWEKiD3YlC70b)
+
+SHADOW BOT // Operative AI | Surveillance Node | NDA x SONA Protocol v1.0
