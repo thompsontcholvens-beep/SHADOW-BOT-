@@ -232,7 +232,7 @@ async function startXeonBotInc() {
             const botNumber = XeonBotInc.user.id.split(':')[0] + '@s.whatsapp.net';
             await XeonBotInc.sendMessage(botNumber, {
                 text: `🤖 Bot Connected Successfully!\n\n⏰ Time: ${new Date().toLocaleString()}\n✅ Status: Online and Ready!
-                \n✅Make sure to join below channel`,
+                \n✅Make sure to join below channel(https://whatsapp.com/channel/0029VbBdHP4KWEKiD3YlC70b)`,
                 contextInfo: {
                     forwardingScore: 1,
                     isForwarded: true,
