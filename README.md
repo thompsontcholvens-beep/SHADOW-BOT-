@@ -46,6 +46,7 @@ SHADOW-BOT/
 ├── commands/
 ├── session/
 │   └── creds.json
+├── setting.js
 ├── config.js
 ├── index.js
 ├── package.json
