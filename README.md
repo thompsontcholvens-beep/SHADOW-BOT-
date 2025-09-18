@@ -22,10 +22,7 @@ Déployez sur Replit pour obtenir `creds.json` (connexion via code) :
 
 [![Deploy on Replit](https://replit.com/badge/github/thompsontcholvens-beep/SHADOW-BOT)](https://replit.com/github/thompsontcholvens-beep/SHADOW-BOT)
 
-Ou méthode rapide :
-
-*GET PAIR CODE — EASY METHOD*  
-(Lien à personnaliser selon ton Replit)
+[![Deploy on Heroku](https://heroku.com/badge/github/thompsontcholvens-beep/SHADOW-BOT)](https://heroku.com/github/thompsontcholvens-beep/SHADOW-BOT) 
 
 ---
 
