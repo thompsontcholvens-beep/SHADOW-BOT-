@@ -12,7 +12,7 @@ module.exports = {
 ┃
 ┃ 👁️ *Analyse du groupe lancée...*
 ┃ ⚠️ _Aucune échappatoire, aucune pitié._
-┃ 🔥 *Opération commandée par* _NDA x SONA_
+┃ 🔥 *Opération commandée par* _NDA x SONA family🕊️_🩸
 ┃
 ╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◆`;
 
