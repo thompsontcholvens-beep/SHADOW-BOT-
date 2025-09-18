@@ -1,7 +1,7 @@
 # 🤖SHADOW-BOT-
 ![SHADOW BOT](https://i.postimg.cc/65k0KqY5/IMG-20250829-WA0136.jpg)
 
-Un bot WhatsApp avancé basé sur [Baileys](https://github.com/WhiskeySockets/Baileys) — pas besoin de scanner un QR code !  
+Un bot WhatsApp avancé basé sur [Baileys](com/WhiskeySockets/Baileys) — pas besoin de scanner un QR code !  
 Déploiement simple avec *code d'association (8 chiffres)*.
 
 ---
@@ -12,7 +12,7 @@ Déploiement simple avec *code d'association (8 chiffres)*.
 
 Clique ici pour forker vers votre GitHub :
 
-[![Fork Repo](https://img.shields.io/badge/Fork-Repository-blue)](https://github.com/thompsontcholvens-beep/SHADOW-BOT/fork)
+[![Fork Repo](https://github.com/thompsontcholvens-beep/SHADOW-BOT/fork)
 
 ---
 
