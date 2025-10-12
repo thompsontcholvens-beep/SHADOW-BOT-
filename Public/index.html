@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Connexion à SHADOW Bot</title>
+  <style>
+    body {
+      background-color: #0a0a0a;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    input, button {
+      padding: 12px;
+      font-size: 16px;
+      margin: 10px;
+    }
+    #code {
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 20px;
+      color: #00ffcc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bienvenue sur SHADOW Bot</h1>
+  <p>Entrez votre numéro pour générer un code </p>
+  <form id="form">
+    <input type="text" id="numero" placeholder="Entrez votre numéro" required />
+    <button type="submit">Générer</button>
+  </form>
+  <div id="code"></div>
+
+  <script>
+    const form = document.getElementById('form');
+    const codeDiv = document.getElementById('code');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const numero = document.getElementById('numero').value;
+      
+      const res = await fetch('/generate', {
+        method: 'POST',
+headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ numero })
+      });
+      
+      const data = await res.json();
+      codeDiv.textContent = data.code || data.error;
+    });
+  </script>
+<footer style="margin-top: 60px;">
+  <p style="
+    color: #00ffcc;
+    font-size: 16px;
+    font-weight: bold;
+    animation: pulse 2s infinite;
+    text-shadow: 0 0 10px #00ffcc;
+  ">© NIGHT SHADOW 
+  </p>
+</footer>
+
+<style>
+  @keyframes pulse {
+    0% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.6; transform: scale(1.05); }
+    100% { opacity: 1; transform: scale(1); }
+  }
+</style>
+</body>
+  </html>
