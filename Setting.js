@@ -3,5 +3,5 @@ module.exports = {
   botName: 'SHADOW BOT',
   channelLink: 'https://whatsapp.com/channel/0029VbBdHP4KWEKiD3YlC70b', // Lien de notre chaîne WhatsApp
   commandPrefix: '🌹',
-  autoJoinRequired: true, // Active la vérification d’abonnement
+  autoJoinRequired: false, // Active la vérification d’abonnement
   }
