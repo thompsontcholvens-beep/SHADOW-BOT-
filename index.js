@@ -1,13 +1,22 @@
-const commands = require('./index')
+require('dotenv').config()
+const fs = require('fs')
+const path = require('path')
 
-client.on('message', async message => {
-  if (!message.body.startsWith('!')) return
+const PREFIX = '🌹'
 
-  const args = message.body.slice(1).split(' ')
-  const commandName = args.shift().toLowerCase()
+// Charger les commandes
+const commands = new Map()
+const files = fs
+  .readdirSync(path.join(__dirname, 'Commandes'))
+  .filter(f => f.endsWith('.js'))
 
-  const command = commands.get(commandName)
-  if (!command) return
+for (const file of files) {
+  const cmd = require(`./Commandes/${file}`)
+  commands.set(cmd.name, cmd)
+}
 
-  await command.execute(message, client)
-})
+console.log(`✅ ${commands.size} commandes chargées`)
+
+// Lancer Baileys
+const startBot = require('./talkdrive')
+startBot({ commands, PREFIX })
